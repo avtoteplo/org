@@ -80,12 +80,12 @@ $(function(){
 	})
 	$('.close').click(function(e){
 		var p = $(this).parents('.parent_fixed');
-		if(p.find('.overflow').length){
+		// if(p.find('.overflow').length){
 			// $('body').removeClass('blocked');
 			$('body').css('overflow','visible');
 			$('.hint_overflow_bg').removeClass('shown');
 			$('.main').css('overflow','hidden');
-		}
+		// }
 		p.removeClass('parent_fixed');
 		//back to initial state
 		backToInitialState(p);
@@ -148,6 +148,7 @@ $(function(){
 	$('.cart_btn').click(function(e){
 		e.preventDefault();
 		var btn = $(this);
+		var p = $(this).parent();
 		btn.html('<div class="wait_response"><span>•</span><span>•</span><span>•</span></div>')
 		setTimeout(function(){
 			btn.find('.wait_response').remove();
@@ -157,6 +158,13 @@ $(function(){
 		        return $("<a href='#' class='cart hidden-sm hidden-xs'>" + $(this).html() + "</a>");
 		    });
 			$('.h_right .cart').addClass('blue_round_btn cart_popup visible').find('span').html('1');
+			// if(p.find('.overflow').length){
+				$('html, body').animate({scrollTop:p.find('.hint').offset().top - ($(window).height() - p.find('.hint').outerHeight())/2},'50');
+				$('body').css('overflow','hidden');
+				// $('body').toggleClass('blocked');
+				$('.hint_overflow_bg').addClass('shown');
+				$('.main').css('overflow','visible');
+			// }
 			btn.parent().toggleClass('parent_fixed');
 			setTimeout(function(){
 				btn.html('<span>+1 в корзину</span>')

@@ -212,13 +212,15 @@ header .active a{
 .dotted_burger{
 	position: relative;
 	cursor: pointer;
+	line-height: 20px;
 }
 .dotted_burger>span{
 	position: relative;
 	z-index: 2;
 	margin-right: 2px;
 	color: #037AFF;
-	font-size: 11px;
+	font-size: 14px;
+	line-height: 14px;
 	top: -1px;
 }
 .anim .dotted_burger>span, .white_header .anim .dotted_burger>span{
@@ -2565,6 +2567,7 @@ input.input_grey:focus:hover, textarea.input_grey:focus:hover, .hint input.input
 	margin-top: 0;
 	margin-bottom: 0;
 	opacity: 1;
+	font-weight: 400;
 }
 .added_tovar span{
 	font-size: 15px;

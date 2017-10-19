@@ -451,7 +451,7 @@
 						<div class="added_tovar_wrapper">
 							<div class="added_tovar">
 								<div class="left">
-									<h2>Автотепло №2 на Chevrolet Aveo</h2>
+									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
 									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
@@ -464,7 +464,7 @@
 							</div>
 							<div class="added_tovar">
 								<div class="left">
-									<h2>Автотепло №2 на Chevrolet Aveo</h2>
+									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
 									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
@@ -477,7 +477,7 @@
 							</div>
 							<div class="added_tovar">
 								<div class="left">
-									<h2>Автотепло №2 на Chevrolet Aveo</h2>
+									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
 									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
@@ -490,7 +490,7 @@
 							</div>
 							<div class="added_tovar">
 								<div class="left">
-									<h2>Автотепло №2 на Chevrolet Aveo</h2>
+									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
 									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
