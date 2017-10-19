@@ -5546,6 +5546,11 @@ img{
 		background-position: calc(100% - 10px) center;		
 	}
 }
+@media all and (min-width: 480px){
+	.xs-screens-text {
+		display: none;
+	}
+}
 @media all and (max-width: 479px){
 	.payment_radio_wrapper label>span{
 		font-size: 13px;
