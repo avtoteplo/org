@@ -39,7 +39,7 @@
 		</div>
 		<div class="col-lg-4 col-md-2 col-sm-2 col-xs-2 smooth_links">
 			<div class="price_block smooth_links">
-				<a href="#begin_cooperation" class="blue_round_btn">Заполнить заявку</a>
+				<a href="#begin_cooperation" class="blue_round_btn"><span class="hidden_320">Заполнить заявку</span><span class="xs-screens-text">Заявка</span></a>
 			</div>
 		</div>
 	</div>
