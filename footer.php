@@ -13,10 +13,10 @@
 				<p>Оптовикам: 8 (351) 216-31-61</p>
 				<div class="soc">
 					<p>Аккаунты в социальных сетях</p>
-					<a href="https://vk.com/tdavtoteplo"><img src="img/vk.png" alt="vk"></a>
-					<a href="https://twitter.com/avtoteplo174"><img src="img/twttr.png" alt="twitter"></a>
-					<a href="https://www.youtube.com/user/avtoteplo74"><img src="img/y.png" alt="youtube"></a>
-					<a href="https://telegram.me/avtoteplo_org"><img src="img/tlgrm.png" alt="telegram"></a>
+					<a href="https://vk.com/tdavtoteplo" target="_blank"><img src="img/vk.png" alt="vk"></a>
+					<a href="https://twitter.com/avtoteplo174" target="_blank"><img src="img/twttr.png" alt="twitter"></a>
+					<a href="https://www.youtube.com/user/avtoteplo74" target="_blank"><img src="img/y.png" alt="youtube"></a>
+					<a href="https://telegram.me/avtoteplo_org" target="_blank"><img src="img/tlgrm.png" alt="telegram"></a>
 				</div>
 			</div>
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6">
