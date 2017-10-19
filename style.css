@@ -235,6 +235,7 @@ header .active a{
 	font-size: 33px;
 	font-weight: 700;
 	line-height: 50px;
+	top: -5px;
 }
 .logo img{
 	max-width: 100%;
