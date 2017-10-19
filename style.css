@@ -80,6 +80,9 @@ p{
 	font-stretch: normal;
 	font-weight: 400;
 }
+.non-float {
+	float: none;
+}
 .before_header{
 	height: 50px;
 	line-height: 50px;
@@ -3513,7 +3516,7 @@ input[type=submit][disabled].blue_round_btn{
 }
 .shops{
 	height: 560px;
-	margin-top: 37px;
+	margin-top: 10px;
 	overflow: auto;
 	position: relative;
 }

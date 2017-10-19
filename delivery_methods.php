@@ -10,7 +10,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+		<div class="col-lg-4 col-md-5 col-md-offset-3 col-sm-12 col-xs-12 center-block non-float">
 			<div class="input_grey arrow show_hint smaller ">
 				<h2 class="desc_row delivery_city_title">Челябинск <span class="grey">Челябинская область</span></h2>
 			</div>
