@@ -452,7 +452,7 @@
 		</div>
 	</div>
 	<div class="row star_block stars_4">
-		<div class="col-xl-offset-0 col-lg-2 col-lg-offset-1 col-md-offset-0 col-sm-5 col-sm-offset-2 col-xs-4 col-xs-offset-2 rl5 star_block_item">
+		<div class="col-xl-offset-0 col-lg-2 col-lg-offset-1 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-8 col-xs-offset-3 rl5 star_block_item">
 			<div class="star_block_img">
 				<img src="img/teploiz1.png">
 			</div>
@@ -460,7 +460,7 @@
 				<h2 class="nowrap">Температуры<br>от -60’<br>до 1200’С</h2>
 			</div>
 		</div>
-		<div class="col-xl-offset-0 col-lg-2 col-lg-offset-1 col-sm-5 col-xs-4 star_block_item">
+		<div class="col-xl-offset-0 col-lg-2 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-8 col-xs-offset-3 star_block_item">
 			<div class="star_block_img">
 				<img src="img/teploiz2.png">
 			</div>
@@ -468,7 +468,7 @@
 				<h2 class="nowrap">Огнеупорные<br>и влагоустой-<br>чивые<br>материалы</h2>
 			</div>
 		</div>
-		<div class="col-lg-2 col-md-offset-0 col-sm-5 col-sm-offset-2 col-xs-4 col-xs-offset-2 star_block_item rl5">
+		<div class="col-lg-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-8 col-xs-offset-3 star_block_item rl5">
 			<div class="star_block_img">
 				<img src="img/teploiz3.png">
 			</div>
@@ -476,7 +476,7 @@
 				<h2 class="nowrap">Не боится<br>кислот<br>и щелочей</h2>
 			</div>
 		</div>
-		<div class="col-xl-offset-0 col-lg-2 col-lg-offset-1 col-sm-5 col-xs-4 star_block_item">
+		<div class="col-xl-offset-0 col-lg-2 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-8 col-xs-offset-3 star_block_item">
 			<div class="star_block_img">
 				<img src="img/teploiz4.png">
 			</div>
