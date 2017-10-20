@@ -1938,34 +1938,48 @@ h1 .dot{
 	color: rgba(0,0,0,.42);
 	letter-spacing: 1.2px;
 }
-.teploiz_1{
-    position: absolute;
-    top: 22%;
-    right: -250px;
-    width: 190px;
+.teploiz_0, .teploiz_1, .teploiz_2{
+	right: -272px;
+	width: 190px;
 }
-.teploiz_1:before, .teploiz_2:before{
+@media all and (min-width: 1200px){
+	.teploiz_0, .teploiz_1, .teploiz_2{
+		right: -250px;
+		width: 190px;
+	}
+}
+.teploiz_0{
+	position: absolute;
+	top: 13%;
+}
+.teploiz_1{
+	position: absolute;
+	top: 30%;
+}
+.teploiz_2{
+	position: absolute;
+	top: 61%;
+}
+.teploiz_0:before, .teploiz_1:before, .teploiz_2:before{
 	content: '';
 	display: block;
 	height: 2px;
 	background-color: rgba(0,0,0,.21);
 	position: absolute;
-	bottom: 12px;
-	opacity: .5;
+	top: 10px;
+	opacity: .7;
+}
+.teploiz_0:before{
+	width: 60px;
+	left: -70px;
 }
 .teploiz_1:before{
-	width: 170px;
-	left: -180px;
+	width: 160px;
+	left: -170px;
 }
 .teploiz_2:before{
-	width: 100px;
-	left: -110px;
-}
-.teploiz_2{
-    position: absolute;
-    top: 55%;
-    right: -250px;
-    width: 190px;
+	width: 70px;
+	left: -80px;
 }
 .autochoice{
 	/*margin-top: 50px;*/
@@ -4783,24 +4797,22 @@ img{
 	.tovar_desc p{
 		font-size: 15px;
 	}
-	.teploiz_1{
-		right: -300px;
-		top: 10%;
-	}
-	.teploiz_2{
+	.teploiz_0, .teploiz_1, .teploiz_2{
 		right: -300px;
 	}
 	.teploiz{
 		height: 250px;
 	}
 	.teploiz img {
-	    height: 250px;
-	    width: auto;
-	    position: absolute;
-	    right: -70px;
+		height: 250px;
+		width: auto;
+		position: absolute;
+		right: -88px;
 	}
 	.teploiz p{
 		font-size: 15px;
+		line-height: 18px;
+		margin-bottom: 0;
 	}
 	.teploiz .small{
 		font-size: 9px;
@@ -5432,13 +5444,11 @@ img{
 	.tovar_desc_wrapper .tovar_inner {
 	    width: 40%;
 	}
-	.teploiz_1{
-		right: -230px;
-		width: 170px;
+	.teploiz img {
+		right: -68px;
 	}
-	.teploiz_2{
-		right: -230px;
-		width: 170px;
+	.teploiz_0, .teploiz_1, .teploiz_2{
+		right: -280px;
 	}
 	.banner.avtoteplo{
 		background-size: 250px;
@@ -5671,17 +5681,20 @@ img{
 		display: inline-block;
 		vertical-align: middle;
 	}
+	.teploiz_0:before{
+		width: 30px;
+		left: -40px;
+	}
 	.teploiz_1:before{
-		width: 140px;
-		left: -150px;
+		width: 130px;
+		left: -140px;
 	}
-	.teploiz_1{
-		width: 150px;
-		right: -220px;
+	.teploiz_2:before{
+		width: 40px;
+		left: -50px;
 	}
-	.teploiz_2{
-		width: 150px;
-		right: -220px;
+	.teploiz_0, .teploiz_1, .teploiz_2{
+		right: -250px;
 	}
 	.teploiz{
 		width: 100px;

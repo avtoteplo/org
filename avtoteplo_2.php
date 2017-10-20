@@ -373,14 +373,14 @@
 			</center>
 		</div>
 	</div>
-	<div class="row star_block">
-		<div class="col-xl-offset-0 col-lg-2 col-lg-offset-1 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-4 col-xs-offset-2 star_block_item rl-2">
+    <div class="row star_block">
+		<div class="col-lg-2 col-xl-offset-0 col-lg-offset-1 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-4 col-xs-offset-2 star_block_item rl-2">
 			<div class="star_block_img">
 				<img src="img/auto1.png">
 			</div>
 			<div class="star_block_item_wrapper">
-				<h2 class="nowrap">В салоне<br>тепло<br>за 15 секунд</h2>
-				<p>За счёт сокращения времени прогрева двигателя</p>
+				<h2 class="nowrap">Салон<br>быстрее<br>прогревается</h2>
+				<p>Тепло не уходит наружу, а остаётся под капотом и сразу идёт в салон</p>
 			</div>
 		</div>
 		<div class="col-lg-2 col-md-3 col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-1 star_block_item">
@@ -398,7 +398,7 @@
 			</div>
 			<div class="star_block_item_wrapper">
 				<h2 class="nowrap">В мороз<br>легче<br>завестись</h2>
-				<p>С автотепло машина остывает полностью на 6 часов дольше</p>
+				<p>С автотеплом машина остывает на 4-6 часов дольше<br><br></p>
 			</div>
 		</div>
 		<div class="col-lg-2 col-lg-offset-0 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-4 col-xs-offset-1 star_block_item rl4">
@@ -407,7 +407,7 @@
 			</div>
 			<div class="star_block_item_wrapper">
 				<h2 class="nowrap">Экономия<br>топлива<br>20-30%</h2>
-				<p>На 20 минут в месяц сокращается время прогрева после стоянки</p>
+				<p>За счет сокращения времени прогрева и более редких включений автопрогрева</p>
 			</div>
 		</div>
 		<div class="col-lg-2 col-md-3 col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-2 star_block_item rl6">
@@ -436,7 +436,10 @@
 	<div class="row">
 		<div class="col-lg-9 col-md-8 col-sm-6 col-xs-6">
 			<div class="teploiz">
-				<img src="img/avtoteplo_1.jpg">
+                <img src="img/avtoteplo-2.jpg">
+				<div class="teploiz_0">
+					<p>Cтеклонить</p>
+				</div>
 				<div class="teploiz_1">
 					<p>Cтеклоткань<br>кремниземная<br>полотняного плетения</p>
 					<p class="grey small">КТ-11-30К</p>

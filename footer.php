@@ -21,20 +21,20 @@
 			</div>
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6">
 				<ul class="f_nav">
-					<li><a href="#">Главная</a></li>
-					<li class="active"><a href="#">Продукция</a></li>
+					<li class="active"><a href="#">Главная</a></li>
+					<li><a href="#">Продукция</a></li>
+					<li><a href="#">Где купить</a></li>
+					<li><a href="#">Партнёрство</a></li>
 					<li><a href="#">Компания</a></li>
-					<li><a href="#">Партнёрам</a></li>
-					<li><a href="#">Публикация в СМИ и исследования</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-6">
 				<ul class="f_nav">
-					<li><a href="#">Магазины</a></li>
+					<li><a href="#">СМИ о нас</a></li>
 					<li><a href="#">Доставка и оплата</a></li>
 					<li><a href="#">Гарантия и возврат</a></li>
 					<li><a href="#">Контакты</a></li>
-				</ul>			
+				</ul>
 			</div>
 		</div>
 		<div class="row">
