@@ -62,6 +62,12 @@ $(function(){
 			$('.hint_overflow_bg').addClass('shown');
 			$('.main').css('overflow','visible');
 		}
+		if($(this).parents().hasClass('before_header')){
+			$('header').css('zIndex', '776');
+		}
+		if($(this).parents().hasClass('burger')){
+			$('header').css('zIndex', '778');
+		}
 		e.stopPropagation();
 	})
 	// $('.hint').click(function(e){

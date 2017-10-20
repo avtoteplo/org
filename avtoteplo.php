@@ -235,6 +235,42 @@
 										<a href="#"><span>Chrysler</span></a>						
 									</div>
 								</div>
+								<div class="car_names">
+									<div class="first_col">
+										<a href="#"><span>Cadillac</span></a>
+										<a href="#" class="checked chery"><span>Chery<img src="img/chery.png"></span></a>
+										<a href="#"><span>Citroen</span></a>
+									</div>
+									<div class="second_col">
+										<a href="#"><span>Changan</span></a>
+										<a href="#"><span>Chevrolet</span></a>						
+										<a href="#"><span>Chrysler</span></a>						
+									</div>
+								</div>
+								<div class="car_names">
+									<div class="first_col">
+										<a href="#"><span>Cadillac</span></a>
+										<a href="#" class="checked chery"><span>Chery<img src="img/chery.png"></span></a>
+										<a href="#"><span>Citroen</span></a>
+									</div>
+									<div class="second_col">
+										<a href="#"><span>Changan</span></a>
+										<a href="#"><span>Chevrolet</span></a>						
+										<a href="#"><span>Chrysler</span></a>						
+									</div>
+								</div>
+								<div class="car_names">
+									<div class="first_col">
+										<a href="#"><span>Cadillac</span></a>
+										<a href="#" class="checked chery"><span>Chery<img src="img/chery.png"></span></a>
+										<a href="#"><span>Citroen</span></a>
+									</div>
+									<div class="second_col">
+										<a href="#"><span>Changan</span></a>
+										<a href="#"><span>Chevrolet</span></a>						
+										<a href="#"><span>Chrysler</span></a>						
+									</div>
+								</div>
 							</div>
 							<div class="tab_content mark_content" id="tab_content_2">
 								hello
