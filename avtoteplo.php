@@ -205,7 +205,7 @@
 							<div class="tab_content mark_content active" id="tab_content_1">
 								<div class="car_names">
 									<div class="first_col">
-										<a href="#"><span>Acura</span></a>
+										<a href="#" class="active"><span>Acura</span></a>
 										<a href="#"><span>Alpina</span></a>
 										<a href="#"><span>Aston Martin</span></a>
 									</div>

@@ -2517,7 +2517,12 @@ input.input_grey:focus:hover, textarea.input_grey:focus:hover, .hint input.input
 	position: relative;
 }
 .car_names a:hover{
-    background-color: rgba(217, 235, 255, 0.3);
+    background-color: rgba(3, 122, 255, .15);
+    color: rgba(3, 122, 255, 1);
+}
+.car_names a.active{
+    background-color: rgba(3, 122, 255, .15);
+    color: rgba(3, 122, 255, 1);
 }
 .tabs h3{
 	border: none;
@@ -5789,6 +5794,10 @@ img{
 	}
 }
 @media all and (max-width: 420px){
+	#map_samovivoz{
+		height: 700px;
+		max-height: 100%;
+	}
 	.dot_inside_wrapper .dot_inside{
 		width: 310px;
 	}
@@ -5841,6 +5850,7 @@ img{
 	}
 	.hint .overflow{
 		max-height: 95%;
+		height: 100%;
 	}
 	.hint_inputs{
 		text-align: center;
