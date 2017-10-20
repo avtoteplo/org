@@ -5645,6 +5645,7 @@ img{
 	}
 	.logo img{
 		max-width: none;
+		max-height: 80%;
 	}
 	.burger .hint{
 		left: auto;
