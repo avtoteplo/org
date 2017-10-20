@@ -176,7 +176,7 @@
 					<a href="#" class="delete">Удалить</a>
 				</div>
 				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-2 price_block">
-					<span>1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+					<span>1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 				</div>
 			</div>
 			<div class="row cart_main_tovar">
@@ -192,12 +192,12 @@
 					<a href="#" class="delete">Удалить</a>
 				</div>
 				<div class="col-lg-2 col-md-2 col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-2 price_block">
-					<span>1500<span class="price">a</span></span>
+					<span>1500<span class="price">q</span></span>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-lg-offset-9 col-md-3 col-md-offset-9 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 price_block cart_main_sum">
-					<h2>Сумма:</h2> <span>1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+					<h2>Сумма:</h2> <span>1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 				</div>
 			</div>
 		</div>
@@ -210,9 +210,9 @@
 			<div class="delivery_inner">
 				<form>
 					<div class="tabs delivery_tabs">
-						<a href="#"><div>Почтой<span>300<span class="price">a</span> • 4—8 дн.</span></div></a>
-						<a href="#" class="active"><div>Самовывоз<span>50<span class="price">a</span> • 5—6 дн.</span></div></a>
-						<a href="#" class="unavailable"><div>Курьером<span class="hidden-xs"> на дом</span><span>500<span class="price">a</span> • 5—6 дн.</span></div></a>
+						<a href="#"><div>Почтой<span>300<span class="price">q</span> • 4—8 дн.</span></div></a>
+						<a href="#" class="active"><div>Самовывоз<span>50<span class="price">q</span> • 5—6 дн.</span></div></a>
+						<a href="#" class="unavailable"><div>Курьером<span class="hidden-xs"> на дом</span><span>500<span class="price">q</span> • 5—6 дн.</span></div></a>
 					</div>
 					<div class="tab_content delivery_tab_content"></div>
 					<div class="delivery_input_wrapper">
@@ -419,12 +419,12 @@
 	<div class="row payment">
 		<div class="col-lg-6 col-lg-offset-3">
 			<center>	
-				<h2 class="h1">К оплате 3300<span class="price">a</span></h2>
+				<h2 class="h1">К оплате 3300<span class="price">q</span></h2>
 			</center>
 			<form action="" class="payment_form">
 				<div class="payment_radio_wrapper">
 					<input name="pay" type="radio" value="on_receipt" id="on_receipt" checked>
-					<label for="on_receipt">При получении: картой или наличными<span>+240<span class="price">a</span> — комиссия Почты России за наложенный платёж</span></label>
+					<label for="on_receipt">При получении: картой или наличными<span>+240<span class="price">q</span> — комиссия Почты России за наложенный платёж</span></label>
 					<div class="check"></div>
 				</div>
 				<div class="payment_radio_wrapper">

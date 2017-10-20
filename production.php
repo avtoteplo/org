@@ -7,7 +7,7 @@
 				<center>
 					<h1>Наша продукция</h1>
 					<p>Мы выпускаем 5 продуктов, и каждый — инновация в своей нише. Такие технологии используются в промышленности: например, для защиты от брызг раскалённого металла. При этом они безопасны для человека и окружающей среды.</p>
-					<div class="title_opt"><a href="#">Оптовые закупки</a> от 40 000 <span class="price">a</span></div>
+					<div class="title_opt"><a href="#">Оптовые закупки</a> от 40 000 <span class="price">q</span></div>
 				</center>
 			</div>
 		</div>
@@ -19,7 +19,7 @@
 						<h2>Огнещазитный<br>чехол для газовых<br>балонов</h2>
 						<p class="tovar_p">В случае пожара сможет<br>держать пламя 40-60 минут</p>
 						<ul class="dot_inside">
-							<li class="price_wrapper"><strong>от 1290<span class="price">a</span></strong></li>
+							<li class="price_wrapper"><strong>от 1290<span class="price">q</span></strong></li>
 							<li><p class="link">Узнать больше</p></li>
 						</ul>
 						<!-- <p class="soon">Скоро в продаже</p> -->
@@ -33,7 +33,7 @@
 						<h2>Тепломатрас</h2>
 						<p class="tovar_p">Находка для охотников<br>и туристов - позволяет спать<br>на земле в любой мороз</p>
 						<ul class="dot_inside">
-							<li class="price_wrapper"><strong>от 1290<span class="price">a</span></strong></li>
+							<li class="price_wrapper"><strong>от 1290<span class="price">q</span></strong></li>
 							<li><p class="link">Узнать больше</p></li>
 						</ul>
 						<!-- <p class="soon">Скоро в продаже</p> -->
@@ -50,7 +50,7 @@
 							<p class="tovar_p">Высокотехнологичный утеплитель для двигателя.</p>
 							<p class="tovar_p">С ним на капоте не появляется наледь, машина лучше заводиться в мороз и быстрее прогревается, что экономит 20-30% топлива.</p>
 							<ul class="dot_inside">
-								<li class="price_wrapper"><strong>от 1290<span class="price">a</span></strong></li>
+								<li class="price_wrapper"><strong>от 1290<span class="price">q</span></strong></li>
 								<li><p class="link">Узнать больше</p></li>
 							</ul>
 							<div class="tovar_add_info">
@@ -76,7 +76,7 @@
 					<p class="tovar_p">Высокотехнологичный утеплитель для двигателя.</p>
 					<p class="tovar_p">С ним на капоте не появляется наледь, машина лучше заводиться в мороз и быстрее прогревается, что экономит 20-30% топлива.</p>
 					<ul class="dot_inside">
-						<li class="price_wrapper"><strong>от 1290<span class="price">a</span></strong></li>
+						<li class="price_wrapper"><strong>от 1290<span class="price">q</span></strong></li>
 						<li><p class="link">Узнать больше</p></li>
 					</ul>
 				</div><!--
@@ -98,7 +98,7 @@
 					<h2>Автотепло<br>для аккумуляторов</h2>
 					<p class="tovar_p">Защищает от перепадов температур и продлевает срок службы батареи</p>
 					<ul class="dot_inside">
-						<li class="price_wrapper"><strong>от 1290<span class="price">a</span></strong></li>
+						<li class="price_wrapper"><strong>от 1290<span class="price">q</span></strong></li>
 						<li><p class="link">Узнать больше</p></li>
 					</ul>
 					<!-- <p class="soon">Скоро в продаже</p> -->
@@ -112,7 +112,7 @@
 					<h2>Огнезащита для труб<br>печей и каминов</h2>
 					<p class="tovar_p">Простая и надежная защита от перегрева и возгарания. Не содержит асбеста.</p>
 					<ul class="dot_inside">
-						<li class="price_wrapper"><strong>от 1290<span class="price">a</span></strong></li>
+						<li class="price_wrapper"><strong>от 1290<span class="price">q</span></strong></li>
 						<li><p class="link">Узнать больше</p></li>
 					</ul>
 					<!-- <p class="soon">Скоро в продаже</p> -->

@@ -24,7 +24,7 @@
 					<a href="#" class="delete">Удалить</a>
 				</div>
 				<div class="col-lg-2 price_block">
-					<span>1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+					<span>1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 				</div>
 			</div>
 			<div class="row cart_main_tovar">
@@ -40,12 +40,12 @@
 					<a href="#" class="delete">Удалить</a>
 				</div>
 				<div class="col-lg-2 price_block">
-					<span>1500<span class="price">a</span></span>
+					<span>1500<span class="price">q</span></span>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-lg-offset-9 price_block cart_main_sum">
-					<h2>Сумма:</h2> <span class="yellow_bg bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+					<h2>Сумма:</h2> <span class="yellow_bg bold">1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 				</div>
 			</div>
 		</div>
@@ -64,9 +64,9 @@
 						</div>
 					</div>
 					<div class="tabs delivery_tabs">
-						<a href="#"><div>Почтой<span>300<span class="price">a</span> • 4—8 дн.</span></div></a>
-						<a href="#"><div>Самовывоз<span>50<span class="price">a</span> • 5—6 дн.</span></div></a>
-						<a href="#" class="active"><div>Курьером на дом<span>500<span class="price">a</span> • 5—6 дн.</span></div></a>
+						<a href="#"><div>Почтой<span>300<span class="price">q</span> • 4—8 дн.</span></div></a>
+						<a href="#"><div>Самовывоз<span>50<span class="price">q</span> • 5—6 дн.</span></div></a>
+						<a href="#" class="active"><div>Курьером на дом<span>500<span class="price">q</span> • 5—6 дн.</span></div></a>
 					</div>
 					<div class="tab_content_delivery">
 						<p>Режим работы курьерской доставки:</p>
@@ -105,9 +105,9 @@
 		<div class="col-lg-4 col-lg-offset-1">
 			<h2 class="h1">Оплата</h2>
 			<div class="sum">
-				<p><span class="f_left">Сумма заказа</span> <span class="f_right">3000<span class="price">a</span></span></p>
-				<p><span class="f_left">Курьерская доставка</span> <span class="f_right">500<span class="price">a</span></span></p>
-				<p class="total bold"><span class="f_left">Итого:</span> <span class="f_right">3500<span class="price">a</span></span></p>
+				<p><span class="f_left">Сумма заказа</span> <span class="f_right">3000<span class="price">q</span></span></p>
+				<p><span class="f_left">Курьерская доставка</span> <span class="f_right">500<span class="price">q</span></span></p>
+				<p class="total bold"><span class="f_left">Итого:</span> <span class="f_right">3500<span class="price">q</span></span></p>
 			</div>
 		</div>
 		<div class="col-lg-6">

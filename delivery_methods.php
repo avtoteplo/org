@@ -59,7 +59,7 @@
 				по телефону.</p>
 				<ul class="dot_inside">
 					<li><span class="bold">5-6 дней</span></li>
-					<li><span class="bold">690<span class="price">a</span></span></li>
+					<li><span class="bold">690<span class="price">q</span></span></li>
 				</ul>
 			</div>
 		</div>
@@ -72,7 +72,7 @@
 				населенные пункты</p>
 				<ul class="dot_inside">
 					<li><span class="bold">7-10 дней</span></li>
-					<li><span class="bold">408<span class="price">a</span></span></li>
+					<li><span class="bold">408<span class="price">q</span></span></li>
 				</ul>
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 				выдачи заказов</p>
 				<ul class="dot_inside">
 					<li><span class="bold">4-5 дней</span></li>
-					<li><span class="bold">90<span class="price">a</span></span></li>
+					<li><span class="bold">90<span class="price">q</span></span></li>
 				</ul>
 			</div>
 		</div>
@@ -98,7 +98,7 @@
 				и супермаркетах</p>
 				<ul class="dot_inside">
 					<li><span class="bold">4-5 дней</span></li>
-					<li><span class="bold">90<span class="price">a</span></span></li>
+					<li><span class="bold">90<span class="price">q</span></span></li>
 				</ul>
 			</div>
 		</div>
