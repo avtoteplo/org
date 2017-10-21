@@ -56,10 +56,12 @@ $(function(){
 		p.toggleClass('parent_fixed');
 		setTimeout(function(){p.find('input').first().focus();},500);
 		if(p.find('.overflow').length){
-			$('html, body').animate({scrollTop:p.find('.hint').offset().top - ($(window).height() - p.find('.hint').outerHeight())/2},'50');
-			$('body').css('overflow','hidden');
+			$('html, body').animate({scrollTop:p.find('.hint').offset().top - ($(window).height() - p.find('.hint').outerHeight())/2},'50', function(){
+				$('.overflow_wrapper').css('overflow','hidden');
+				$('.hint_overflow_bg').addClass('shown');
+				$('html, body').css('overflow','hidden');
+			});
 			// $('body').toggleClass('blocked');
-			$('.hint_overflow_bg').addClass('shown');
 			$('.main').css('overflow','visible');
 		}
 		if($(this).parents().hasClass('before_header')){
@@ -78,7 +80,8 @@ $(function(){
 	    if (hint.has(e.target).length === 0){
 			backToInitialState($('.parent_fixed'));
 	        hint.parents('.parent_fixed').removeClass('parent_fixed');
-			$('body').css('overflow','visible');
+			$('html, body').css('overflow','visible');
+			$('.overflow_wrapper').css('overflow','visible');
 			// $('body').removeClass('blocked');
 			$('.hint_overflow_bg').removeClass('shown');
 			$('.main').css('overflow','hidden');
@@ -88,7 +91,8 @@ $(function(){
 		var p = $(this).parents('.parent_fixed');
 		// if(p.find('.overflow').length){
 			// $('body').removeClass('blocked');
-			$('body').css('overflow','visible');
+			$('html, body').css('overflow','visible');
+			$('.overflow_wrapper').css('overflow','visible');
 			$('.hint_overflow_bg').removeClass('shown');
 			$('.main').css('overflow','hidden');
 		// }

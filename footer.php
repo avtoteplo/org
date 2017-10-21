@@ -1,4 +1,3 @@
-
 </div>
 <footer>
 	<div class="container-fluid">
@@ -44,6 +43,7 @@
 		</div>
 	</div>
 </footer>
+</div>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
 <script type="text/javascript" src="js/main.js"></script>

@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Title</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
@@ -15,6 +15,7 @@
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
+<div class="overflow_wrapper">
 <div class="hint_overflow_bg"></div>
 <!-- <a href="#" class="blue_round_btn cart_popup"><span>1</span>Оформить заказ</a> -->
 <div class="main <?php if($banner_page){ ?>banner_page <?php }else if($shops){ ?>shops_page<?php } ?>">
