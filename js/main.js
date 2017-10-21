@@ -220,7 +220,7 @@ $(function(){
 
 	        MyBalloonLayout = ymaps.templateLayoutFactory.createClass(
 	            '<div class="popover top">' +
-	                '<a class="close" href="#"><img src="img/close.png"></a>' +
+	                '<a class="close-balloon" href="#"><img src="img/close.png"></a>' +
 	                '<div class="arrow"></div>' +
 	                '<div class="popover-inner">' +
 	                '$[[options.contentLayout observeSize minWidth=235 maxWidth=235 maxHeight=350]]' +
@@ -239,7 +239,7 @@ $(function(){
 
 	                    this.applyElementOffset();
 
-	                    this._$element.find('.close')
+	                    this._$element.find('.close-balloon')
 	                        .on('click', $.proxy(this.onCloseClick, this));
 	                },
 
@@ -250,7 +250,7 @@ $(function(){
 	                 * @name clear
 	                  */
 	                clear: function () {
-	                    this._$element.find('.close')
+	                    this._$element.find('.close-balloon')
 	                        .off('click');
 
 	                    this.constructor.superclass.clear.call(this);

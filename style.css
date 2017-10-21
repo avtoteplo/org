@@ -595,7 +595,7 @@ footer .tel>span>.dot:before{
 header .show_hint:hover, .before_header .show_hint:hover{
 	color: #D0011B;
 }
-.close{
+.close, .close-balloon{
 	position: absolute;
 	top: 12px;
 	right: 12px;
