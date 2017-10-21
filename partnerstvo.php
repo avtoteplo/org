@@ -29,7 +29,7 @@
 				<li class="hidden-sm hidden-xs"><a href="#begin_cooperation">Как начать сотрудничество</a></li>
 				<li class="hover_parent hidden-xl hidden-lg hidden-md">
 					<div class="dotted_burger"><span>•</span><span>•</span><span>•</span></div>
-					<ul class="sub_menu header_nav_sub_menu hint">
+					<ul class="sub_menu header_nav_sub_menu hint hint_left">
 						<li class="active hidden-sm hidden-xs visible_480"><a href="#10_reasons">10 причин работать с нами</a></li>
 						<li class="hidden-sm"><a href="#for_whom">Кому подойдёт</a></li>
 						<li><a href="#begin_cooperation">Как начать сотрудничество</a></li>

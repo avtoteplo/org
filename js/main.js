@@ -181,7 +181,7 @@ $(function(){
 	    $('html, body').animate({
 	        scrollTop: $( $(this).attr('href') ).offset().top
 	    }, 500);
-	    if($(window).outerWidth() <= 400){
+	    if($(window).outerWidth() <= 420){
 	    	$(this).parents('.anim').removeClass('anim');
 	    }
 	    return false;

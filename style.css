@@ -5548,11 +5548,11 @@ img{
 		margin-bottom: 25px;
 	}
 	.hint_left:after{
-	    left: 7%;
+	    left: 1%;
 	    margin-left: 0;
 	}
 	.hint_left{
-		left: -20px;
+		left: 0;
 	    transform: none;
 	    -webkit-transform: none;
 	    -moz-transform: none;
@@ -5795,6 +5795,11 @@ img{
 	}
 }
 @media all and (max-width: 420px){
+	.sub_menu.header_nav_sub_menu.hint{
+		top: 50% !important;
+		left: 50%;
+		height: auto;
+	}
 	#map_samovivoz{
 		height: 700px;
 		max-height: 100%;
