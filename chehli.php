@@ -306,9 +306,7 @@
 					</div>
 				</div>
 				<div class="size_wrapper"><span>Комплектация</span></div>
-				<p class="extra">Чехол, паспорт, инструкция, пакет</p>
-				<div class="size_wrapper"><span>Дополнительно</span></div>
-				<p class="equipment">1 год гарантии</p>
+				<p class="extra">Чехол, буклет (инструкция и паспорт изделия) и пакет</p>
 			</div>
 			<div class="tovar_inner">
 				<div class="price_block">
