@@ -465,7 +465,7 @@
 				<img src="img/teploiz2.png">
 			</div>
 			<div class="star_block_item_wrapper">
-				<h2 class="nowrap">Огнеупорные<br>и влагоустой-<br>чивые<br>материалы</h2>
+				<h2 class="nowrap">Огнеупорные<br>материалы</h2>
 			</div>
 		</div>
 		<div class="col-lg-2 col-md-offset-0 col-sm-5 col-sm-offset-2 col-xs-4 col-xs-offset-2 star_block_item rl5">
