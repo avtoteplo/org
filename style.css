@@ -4100,6 +4100,13 @@ img{
     width: 100%;
     left: 0;
 }
+.shops .blue_round_btn{
+	visibility: hidden;
+	opacity: 0;
+}
+.shops_page .popover{
+	display: none;
+}
 @media all and (min-width: 1680px){
 	.container-xl{
 		width: 1190px;
@@ -4408,6 +4415,28 @@ img{
 	}
 }
 @media all and (max-width: 899px){
+	.cart_main_tovar{
+    	border-bottom: none;
+    	position: relative;	
+	}
+	.cart_main_tovar::before{
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		height: 2px;
+		width: calc(100% - 20px);
+		background-color: #e9e9e9;
+	}
+	.cart_main_tovar .price_block>span:first-child{
+		font-size: 21px;
+	}
+	.cart_main_tovar .price_block .grey.crossed{
+		font-size: 16px;
+	}
 	#video_a{
 		/*display: none;*/
 	}
@@ -5006,6 +5035,28 @@ img{
 	}
 }
 @media all and (max-width: 599px){
+	.shops_page .popover{
+		display: block;
+	}
+	.shops{
+		height: 110vh;
+	}
+	.shops .blue_round_btn{
+		position: fixed;
+		bottom: 10px;
+		left: 50%;
+	    transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+		transition: all .3s ease-out;
+	}
+	.shops .blue_round_btn.visible{
+		opacity: 1;
+		visibility: visible;
+	}
+	.desc_row.delivery_city_title:before, .desc_row.autochoice_title:before{
+		top: 7px;
+	}
 	.tovar_main.first{
 		background-size: 280px;
 	}
@@ -5424,12 +5475,36 @@ img{
 	    white-space: nowrap;
 	    text-overflow: ellipsis;
 	    overflow: hidden;
+	    margin-bottom: 0;
 	}
 	.dop_info_block{
-		border-right: 0;
+    	border-bottom: none;
+		padding: 13px 10px;
+		clear: both;
+		height: 92px;
 	}
 	.dop_info_block:first-child{
-		border-top: 2px solid #e9e9e9;
+		border-top: none;
+	}
+	.dop_info_block:first-child::after{
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 2px;
+		width: calc(100% - 10px);
+		background-color: #e9e9e9;
+	}
+	.dop_info_block::before{
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 2px;
+		width: calc(100% - 10px);
+		background-color: #e9e9e9;
 	}
 	.dop_info_block .img img {
 	    max-height: 100%;
@@ -5442,11 +5517,6 @@ img{
 		float: left;
 		text-align: center;
 		margin-right: 10px;
-	}
-	.dop_info_block{
-		padding: 10px;
-		clear: both;
-		height: 86px;
 	}
 	.dop_info_text{
 		height: auto;
@@ -5520,6 +5590,9 @@ img{
 	}
 }
 @media all and (max-width: 479px){
+	.tovar_wrapper.top>div:last-child{
+		margin-top: 52px;
+	}
 	.tovar_main.first p{
 		margin-bottom: 26px;
 	}

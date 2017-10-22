@@ -196,6 +196,13 @@ $(function(){
 		}else{
 			$('.h_right .cart.visible').removeClass('blue_round_btn cart_popup');
 		}
+		if($('.shops_page').length){
+			if($(this).scrollTop() > $('.shops').offset().top){
+				$('.shops .blue_round_btn').addClass('visible');
+			}else{
+				$('.shops .blue_round_btn').removeClass('visible');
+			}
+		}
 	})
 	// =========MAP=========
 	var myMap, myMap_shops;
