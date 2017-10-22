@@ -188,9 +188,7 @@
 					</div>
 				</div>
 				<div class="size_wrapper"><span>Комплектация</span></div>
-				<p class="extra">Автотепло, паспорт, инструкция,<br>пакет</p>
-				<div class="size_wrapper"><span>Дополнительно</span></div>
-				<p class="equipment">1 год гарантии</p>
+				<p class="extra">Автотепло, буклет (инструкция и паспорт изделия) и пакет</p>
 			</div>
 			<div class="tovar_inner">
 				<div class="price_block">
