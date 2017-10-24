@@ -137,7 +137,8 @@
 					<div class="hint"><p>Опт: 8 800 555 43 74 или 8 (351) 226 31 61</p></div>
 				</div>
 				<a href="#" class="hidden-md hidden-sm hidden-xs">Контакты</a>
-				<span href="#" class="cart hidden-sm hidden-xs"><span>0</span><p>Оформить заказ</p></span>
+				<span class="mobile-btn-wrapper"><span href="#" class="hidden-sm hidden-xs cart"><span>0</span><p>Оформить заказ</p></span></span>
+
 			</div>
 		</header>
 	</div>

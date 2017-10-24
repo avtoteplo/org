@@ -3202,6 +3202,7 @@ input[type=submit][disabled].blue_round_btn{
 	height: 0;
 	width: 0;
 	transition: all .3s ease-out;
+	z-index: 10;
 }
 .blue_round_btn.cart_popup.visible{
 	visibility: visible;
@@ -4522,6 +4523,28 @@ img{
 	.blue_round_btn{
 		white-space: nowrap;
 	}
+	.blue_round_btn.cart_popup.visible{
+		height: 42px;
+		line-height: 42px;
+		padding: 0 24px 0 78px;
+	}
+	.blue_round_btn.cart_popup p, .h_right .cart.cart_popup p, .blue_round_btn.cart_popup > span{
+		font-size: 15px;
+		line-height: 44px;
+	}
+	.blue_round_btn.cart_popup > span{
+		left: 44px;
+	}
+	.blue_round_btn.cart_popup:before {
+		height: 26px;
+		left: 66px;
+	}
+	.blue_round_btn.cart_popup:after {
+		width: 18px;
+		height: 16px;
+		top: 12px;
+		left: 23px;
+	}
 	.star_3 .star_block_item{
 		float: none;
 	}
@@ -5010,29 +5033,6 @@ img{
 	}
 }
 @media all and (max-width: 599px){
-	/*#technology_a .star_block_img{*/
-		/*display: inline-block;*/
-		/*width: 60px;*/
-		/*vertical-align: middle;*/
-		/*position: relative;*/
-		/*margin-right: 10px;*/
-	/*}*/
-	/*#technology_a .star_block_img img{*/
-		/*max-width: 100%;*/
-		/*position: absolute;*/
-		/*top: 0;*/
-		/*bottom: 0;*/
-		/*left: 0;*/
-		/*right: 0;*/
-		/*margin: auto;*/
-	/*}*/
-	/*#technology_a .star_block_item:first-child .star_block_img img{*/
-		/*max-width: 45%;*/
-	/*}*/
-	/*#technology_a .star_block_item_wrapper {*/
-		/*display: inline-block;*/
-		/*vertical-align: middle;*/
-	/*}*/
 	#technology_a .star_block_item {
 		float: none;
 		margin-bottom: 5px;
@@ -5548,6 +5548,21 @@ img{
 		background-size: 30px;
 		background-position: calc(100% - 10px) center;		
 	}
+	.mobile-btn-wrapper {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	.blue_round_btn.cart_popup.visible {
+		position: relative;
+		display: block;
+		width: 226px;
+		margin: 0 auto;
+		right: 0;
+		top: auto;
+		bottom: 6px;
+	}
 }
 @media all and (min-width: 480px){
 	.xs-screens-text {
@@ -5868,7 +5883,7 @@ img{
 	}
 	.burger .hint:after{
 		visibility: visible;
-		top: 23px !im
+		top: 23px !important;
 	}
 	.burger.parent_fixed .hint{
 		top: 43px !important;

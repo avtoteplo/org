@@ -17,7 +17,7 @@ $(function(){
 				p.bind('hover',hover_p)
 			},300)
 		},2000)
-	}
+	};
 	// $('.parent').hover(hover_p);
 	$('.input_grey').keyup(function(e){
 		if($(this).val() != ''){
@@ -25,7 +25,7 @@ $(function(){
 		}else{
 			$(this).parent().find('label').css('opacity','0');		
 		}
-	})
+	});
 	$('.hint_form_wrapper input').keyup(function(e){
 		if($(this).val() != ''){
 			$(this).parent().find('.clear').animate({'opacity':'1'});
@@ -34,14 +34,14 @@ $(function(){
 			$(this).parent().find('.clear').animate({'opacity':'0'});
 			$(this).parents('.hint').find('.variative').show();
 		}
-	})
+	});
 	$('.clear').click(function(e){
 		e.preventDefault();
 		$(this).parent().find('input').val('').focus();
 		$(this).animate({'opacity':'0'});
 		$(this).parents('.hint').find('.variative').show();
 
-	})
+	});
 	$('.hover_parent').hover(function(e){
 		$(this).addClass('anim')
 		// .prev().find('span').css('color','#D0011B');
@@ -63,7 +63,7 @@ $(function(){
 			$('.main').css('overflow','visible');
 		}
 		e.stopPropagation();
-	})
+	});
 	// $('.hint').click(function(e){
 	// 	e.stopPropagation();
 	// })
@@ -77,7 +77,7 @@ $(function(){
 			$('.hint_overflow_bg').removeClass('shown');
 			$('.main').css('overflow','hidden');
 	    }
-	})
+	});
 	$('.close').click(function(e){
 		var p = $(this).parents('.parent_fixed');
 		// if(p.find('.overflow').length){
@@ -90,7 +90,7 @@ $(function(){
 		//back to initial state
 		backToInitialState(p);
 		// 
-	})
+	});
 	function backToInitialState(p){
 		setTimeout(function(){
 			p.find('input').val('');
@@ -106,7 +106,7 @@ $(function(){
 	$('.hint_check li').click(function(){
 		$(this).parents('.sub_menu').find('li').removeClass('checked');
 		$(this).addClass('checked');
-	})
+	});
 	$('.tabs_mark a').click(function(e){
 		e.preventDefault();
 		$(this).parent('.tabs').find('a').removeClass('active');
@@ -115,7 +115,7 @@ $(function(){
 		var id = $(this).attr('href');
 		$(this).parents('.hint').find('.tab_content').removeClass('active');
 		$(id).addClass('active');
-	})
+	});
 	$('.mark_content .car_names a').click(function(e){
 		e.preventDefault();
 		// $('.mark_content').addClass('hidden');
@@ -133,7 +133,7 @@ $(function(){
 
 		var markName = $(this).html();
 		$('.tabs_model h3').html(markName);
-	})
+	});
 	$('.tabs_model .back').click(function(e){
 		e.preventDefault();
 		$('.model_content').removeClass('active');
@@ -144,55 +144,60 @@ $(function(){
 		$(this).parents('.hint').find('form').removeClass('hidden');
 		$('.tabs_mark').removeClass('hidden');
 		$('.tabs_model').addClass('hidden');
-	})
-	$('.cart_btn').click(function(e){
-		e.preventDefault();
-		var btn = $(this);
-		var p = $(this).parent();
-		btn.html('<div class="wait_response"><span>•</span><span>•</span><span>•</span></div>')
-		setTimeout(function(){
-			btn.find('.wait_response').remove();
-			btn.html('<span class="filter_white"><img src="img/green_check.png"></span>');
-			// $('.cart_popup').addClass('visible');
-			$('.h_right .cart').replaceWith(function(){
-		        return $("<a href='#' class='cart hidden-sm hidden-xs'>" + $(this).html() + "</a>");
-		    });
-			$('.h_right .cart').addClass('blue_round_btn cart_popup visible').find('span').html('1');
-			// if(p.find('.overflow').length){
-				$('html, body').animate({scrollTop:p.find('.hint').offset().top - ($(window).height() - p.find('.hint').outerHeight())/2},'50');
-				$('body').css('overflow','hidden');
-				// $('body').toggleClass('blocked');
-				$('.hint_overflow_bg').addClass('shown');
-				$('.main').css('overflow','visible');
-			// }
-			btn.parent().toggleClass('parent_fixed');
-			setTimeout(function(){
-				btn.html('<span>+1 в корзину</span>')
-			}, 2000);
-		}, 2000);
-	})
-	$('.smooth_links a').click(function(){
-	    $('html, body').animate({
-	        scrollTop: $( $(this).attr('href') ).offset().top
-	    }, 500);
-	    if($(window).outerWidth() <= 400){
-	    	$(this).parents('.anim').removeClass('anim');
-	    }
-	    return false;
 	});
-	$(window).on('scroll', function(e){
-		if($(this).scrollTop() > $('header').offset().top + $('header').height()){
-			$('.h_right .cart.visible').addClass('blue_round_btn cart_popup');
-		}else{
-			$('.h_right .cart.visible').removeClass('blue_round_btn cart_popup');
+
+    $('.cart_btn').click(function(e){
+        e.preventDefault();
+        var btn = $(this);
+        var p = $(this).parent();
+        btn.html('<div class="wait_response"><span>•</span><span>•</span><span>•</span></div>')
+        setTimeout(function(){
+            btn.find('.wait_response').remove();
+            btn.html('<span class="filter_white"><img src="img/green_check.png"></span>');
+            $('.cart_popup').addClass('visible');
+            $('.h_right .cart').replaceWith(function(){
+                return $("<a href='#' class='cart '>" + $(this).html() + "</a>");
+            });
+            $('.h_right .cart').addClass('blue_round_btn cart_popup visible').find('span').html('1');
+            // if(p.find('.overflow').length){
+            $('html, body').animate({scrollTop:p.find('.hint').offset().top - ($(window).height() - p.find('.hint').outerHeight())/2},'50');
+            $('body').css('overflow','hidden');
+            // $('body').toggleClass('blocked');
+            $('.hint_overflow_bg').addClass('shown');
+            $('.main').css('overflow','visible');
+            // }
+            btn.parent().toggleClass('parent_fixed');
+            setTimeout(function(){
+                btn.html('<span>+1 в корзину</span>')
+            }, 2000);
+        }, 2000);
+    });
+    $('.smooth_links a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
+        if($(window).outerWidth <= 400){
+            $(this).parents('.anim').removeClass('anim');
+        }
+        return false;
+    });
+
+    $(window).on('scroll', function(e){
+    	if($(document).width() > 599) {
+            if($(this).scrollTop() > $('header').offset().top + $('header').height()){
+                $('.h_right .cart.visible').addClass('blue_round_btn cart_popup').removeClass('hidden-sm hidden-xs');
+            }else{
+                $('.h_right .cart.visible').removeClass('blue_round_btn cart_popup').addClass('hidden-sm hidden-xs');
+            }
+		} else {
+            $('.h_right .cart.visible').addClass('blue_round_btn cart_popup').removeClass('hidden-sm hidden-xs');
 		}
-	})
+    });
+
 	// =========MAP=========
 	var myMap, myMap_shops;
-
 	// Дождёмся загрузки API и готовности DOM.
 	ymaps.ready(init);
-
 	function init () {
 		if($('#map_shops').length){
 		    myMap_shops = new ymaps.Map('map_shops', {
