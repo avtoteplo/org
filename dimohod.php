@@ -83,8 +83,11 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-9">
-			<div class="teploiz">
-				<img src="img/avtoteplo_1.jpg">
+            <div class="teploiz">
+                <img src="img/avtoteplo-2.jpg">
+				<div class="teploiz_0">
+					<p>Cтеклонить</p>
+				</div>
 				<div class="teploiz_1">
 					<p>Cтеклоткань<br>кремниземная<br>полотняного плетения</p>
 					<p class="grey small">КТ-11-30К</p>
