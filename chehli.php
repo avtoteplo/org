@@ -170,8 +170,11 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-9 col-md-8 col-sm-6 col-xs-6">
-			<div class="teploiz">
-				<img src="img/chehli_b.jpg">
+            <div class="teploiz">
+                <img src="img/avtoteplo-2.jpg">
+				<div class="teploiz_0">
+					<p>Cтеклонить</p>
+				</div>
 				<div class="teploiz_1">
 					<p>Cтеклоткань<br>кремниземная<br>полотняного плетения</p>
 					<p class="grey small">КТ-11-30К</p>
