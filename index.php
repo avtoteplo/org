@@ -126,7 +126,7 @@
 					<div class="img_wrapper">
 						<img src="img/main_block_3_2.jpg">
 					</div>
-					<p class="p_under_img"><span class="weight700">Оптовые закупки</span><span class="dot"></span>От 40 000<span class="price">a</span>, оплата онлайн, отгрузка товара через сутки, рекламная поддержка...</p>
+					<p class="p_under_img"><span class="weight700">Оптовые закупки</span><span class="dot"></span>От 40 000<span class="price">q</span>, оплата онлайн, отгрузка товара через сутки, рекламная поддержка...</p>
 					<a href="#">10 причин работать с нами</a>
 				</center>
 			</div>

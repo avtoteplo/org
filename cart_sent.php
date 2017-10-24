@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1 order_sent">
 			<center>
-				<h1>Заказ №569-321<span class="dot"></span>К оплате 3300<span class="price">a</span></h1>
+				<h1>Заказ №569-321<span class="dot"></span>К оплате 3300<span class="price">q</span></h1>
 				<h2>Платёж не прошел, попробуйте еще раз или выберите<br>другой способ оплаты</h2>
 			</center>
 		</div>
@@ -27,7 +27,7 @@
 				</div>
 				<div class="payment_radio_wrapper">
 					<input name="pay" type="radio" value="on_receipt" id="on_receipt">
-					<label for="on_receipt">При получении: картой или наличными<span>+240<span class="price">a</span> — комиссия Почты России за наложенный платёж</span></label>
+					<label for="on_receipt">При получении: картой или наличными<span>+240<span class="price">q</span> — комиссия Почты России за наложенный платёж</span></label>
 					<div class="check"></div>
 				</div>
 				<div class="submit_block">

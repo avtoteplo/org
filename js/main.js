@@ -56,11 +56,19 @@ $(function(){
 		p.toggleClass('parent_fixed');
 		setTimeout(function(){p.find('input').first().focus();},500);
 		if(p.find('.overflow').length){
-			$('html, body').animate({scrollTop:p.find('.hint').offset().top - ($(window).height() - p.find('.hint').outerHeight())/2},'50');
-			$('body').css('overflow','hidden');
+			$('html, body').animate({scrollTop:p.find('.hint').offset().top - ($(window).height() - p.find('.hint').outerHeight())/2},'50', function(){
+				$('.overflow_wrapper').css('overflow','hidden');
+				$('.hint_overflow_bg').addClass('shown');
+				$('html, body').css('overflow','hidden');
+			});
 			// $('body').toggleClass('blocked');
-			$('.hint_overflow_bg').addClass('shown');
 			$('.main').css('overflow','visible');
+		}
+		if($(this).parents().hasClass('before_header')){
+			$('header').css('zIndex', '776');
+		}
+		if($(this).parents().hasClass('burger')){
+			$('header').css('zIndex', '778');
 		}
 		e.stopPropagation();
 	});
@@ -72,7 +80,8 @@ $(function(){
 	    if (hint.has(e.target).length === 0){
 			backToInitialState($('.parent_fixed'));
 	        hint.parents('.parent_fixed').removeClass('parent_fixed');
-			$('body').css('overflow','visible');
+			$('html, body').css('overflow','visible');
+			$('.overflow_wrapper').css('overflow','visible');
 			// $('body').removeClass('blocked');
 			$('.hint_overflow_bg').removeClass('shown');
 			$('.main').css('overflow','hidden');
@@ -82,7 +91,8 @@ $(function(){
 		var p = $(this).parents('.parent_fixed');
 		// if(p.find('.overflow').length){
 			// $('body').removeClass('blocked');
-			$('body').css('overflow','visible');
+			$('html, body').css('overflow','visible');
+			$('.overflow_wrapper').css('overflow','visible');
 			$('.hint_overflow_bg').removeClass('shown');
 			$('.main').css('overflow','hidden');
 		// }
@@ -192,12 +202,21 @@ $(function(){
 		} else {
             $('.h_right .cart.visible').addClass('blue_round_btn cart_popup').removeClass('hidden-sm hidden-xs');
 		}
-    });
+		if($('.shops_page').length){
+			if($(this).scrollTop() > $('.shops').offset().top){
+				$('.shops .blue_round_btn').addClass('visible');
+			}else{
+				$('.shops .blue_round_btn').removeClass('visible');
+			}
+		}
+	});
 
 	// =========MAP=========
 	var myMap, myMap_shops;
+
 	// Дождёмся загрузки API и готовности DOM.
 	ymaps.ready(init);
+
 	function init () {
 		if($('#map_shops').length){
 		    myMap_shops = new ymaps.Map('map_shops', {
@@ -215,7 +234,7 @@ $(function(){
 
 	        MyBalloonLayout = ymaps.templateLayoutFactory.createClass(
 	            '<div class="popover top">' +
-	                '<a class="close" href="#"><img src="img/close.png"></a>' +
+	                '<a class="close-balloon" href="#"><img src="img/close.png"></a>' +
 	                '<div class="arrow"></div>' +
 	                '<div class="popover-inner">' +
 	                '$[[options.contentLayout observeSize minWidth=235 maxWidth=235 maxHeight=350]]' +
@@ -234,7 +253,7 @@ $(function(){
 
 	                    this.applyElementOffset();
 
-	                    this._$element.find('.close')
+	                    this._$element.find('.close-balloon')
 	                        .on('click', $.proxy(this.onCloseClick, this));
 	                },
 
@@ -245,7 +264,7 @@ $(function(){
 	                 * @name clear
 	                  */
 	                clear: function () {
-	                    this._$element.find('.close')
+	                    this._$element.find('.close-balloon')
 	                        .off('click');
 
 	                    this.constructor.superclass.clear.call(this);

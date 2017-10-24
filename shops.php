@@ -82,6 +82,7 @@
 						<p class="small">8 (918) 268-99-30 • 8 (918) 269-46-80</p>
 						<a href="#shop_4" class="show_on_map">Показать на карте</a>
 					</div>
+					<a href="#" class="blue_round_btn">Смотреть на карте</a>
 				</div>
 			</div>
 		</div>

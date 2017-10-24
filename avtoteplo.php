@@ -39,7 +39,7 @@
 		</div>
 		<div class="col-lg-4 col-md-2 col-sm-2 col-xs-2 smooth_links">
 			<div class="price_block">
-				<span class="yellow_bg bold hidden-md hidden-sm hidden-xs">от <span class="price_wrapper">1500<span class="price">a</span></span></span> <span class="grey crossed hidden-md hidden-sm hidden-xs">1900<span class="price">a</span></span> <a href="#buy_a" class="blue_round_btn">Купить</a>
+				<span class="yellow_bg bold hidden-md hidden-sm hidden-xs">от <span class="price_wrapper">1500<span class="price">q</span></span></span> <span class="grey crossed hidden-md hidden-sm hidden-xs">1900<span class="price">q</span></span> <a href="#buy_a" class="blue_round_btn">Купить</a>
 			</div>
 		</div>
 	</div>
@@ -148,7 +148,7 @@
 				<img src="img/teploiz2.png">
 			</div>
 			<div class="star_block_item_wrapper">
-				<h2 class="nowrap">Огнеупорные<br>и влагоустой-<br>чивые<br>материалы</h2>
+				<h2 class="nowrap">Огнеупорные<br>материалы</h2>
 			</div>
 		</div>
 		<div class="col-lg-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-8 col-xs-offset-3 star_block_item rl5">
@@ -205,7 +205,7 @@
 							<div class="tab_content mark_content active" id="tab_content_1">
 								<div class="car_names">
 									<div class="first_col">
-										<a href="#"><span>Acura</span></a>
+										<a href="#" class="active"><span>Acura</span></a>
 										<a href="#"><span>Alpina</span></a>
 										<a href="#"><span>Aston Martin</span></a>
 									</div>
@@ -224,6 +224,42 @@
 									<div class="second_col">
 										<a href="#" class="checked bmw"><span>BWM<img src="img/bmw.png"></span></a>
 										<a href="#"><span>Buick</span></a>						
+									</div>
+								</div>
+								<div class="car_names">
+									<div class="first_col">
+										<a href="#"><span>Cadillac</span></a>
+										<a href="#" class="checked chery"><span>Chery<img src="img/chery.png"></span></a>
+										<a href="#"><span>Citroen</span></a>
+									</div>
+									<div class="second_col">
+										<a href="#"><span>Changan</span></a>
+										<a href="#"><span>Chevrolet</span></a>						
+										<a href="#"><span>Chrysler</span></a>						
+									</div>
+								</div>
+								<div class="car_names">
+									<div class="first_col">
+										<a href="#"><span>Cadillac</span></a>
+										<a href="#" class="checked chery"><span>Chery<img src="img/chery.png"></span></a>
+										<a href="#"><span>Citroen</span></a>
+									</div>
+									<div class="second_col">
+										<a href="#"><span>Changan</span></a>
+										<a href="#"><span>Chevrolet</span></a>						
+										<a href="#"><span>Chrysler</span></a>						
+									</div>
+								</div>
+								<div class="car_names">
+									<div class="first_col">
+										<a href="#"><span>Cadillac</span></a>
+										<a href="#" class="checked chery"><span>Chery<img src="img/chery.png"></span></a>
+										<a href="#"><span>Citroen</span></a>
+									</div>
+									<div class="second_col">
+										<a href="#"><span>Changan</span></a>
+										<a href="#"><span>Chevrolet</span></a>						
+										<a href="#"><span>Chrysler</span></a>						
 									</div>
 								</div>
 								<div class="car_names">
@@ -431,13 +467,11 @@
 					</div>
 				</div>
 				<div class="size_wrapper"><span>Комплектация</span></div>
-				<p class="extra">Автотепло, паспорт, инструкция, пакет</p>
-				<div class="size_wrapper"><span>Дополнительно</span></div>
-				<p class="equipment">1 год гарантии, скидка на Автотепло для аккумулятора</p>
+				<p class="extra">Автотепло, буклет (инструкция и паспорт изделия) и пакет</p>
 			</div>
 			<div class="tovar_inner">
 				<div class="price_block">
-					<span class="yellow_bg bold desc_row">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+					<span class="yellow_bg bold desc_row">1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 				</div>
 				<div class="order_block">
 					<a href="#" class="cart_btn blue_btn_3 show_hint_cart"><span>В корзину</span></a>
@@ -452,7 +486,7 @@
 							<div class="added_tovar">
 								<div class="left">
 									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
-									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+									<span class="bold">1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
 										<a href="#" class="delete">Удалить</a>
@@ -465,7 +499,7 @@
 							<div class="added_tovar">
 								<div class="left">
 									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
-									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+									<span class="bold">1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
 										<a href="#" class="delete">Удалить</a>
@@ -478,7 +512,7 @@
 							<div class="added_tovar">
 								<div class="left">
 									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
-									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+									<span class="bold">1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
 										<a href="#" class="delete">Удалить</a>
@@ -491,7 +525,7 @@
 							<div class="added_tovar">
 								<div class="left">
 									<h2>Автотепло №2 <br>на Chevrolet Aveo</h2>
-									<span class="bold">1500<span class="price">a</span></span> <span class="grey crossed">1900<span class="price">a</span></span>
+									<span class="bold">1500<span class="price">q</span></span> <span class="grey crossed">1900<span class="price">q</span></span>
 									<div class="added_tovar_btns">
 										<a href="#" class="duplicate">Дублировать</a>
 										<a href="#" class="delete">Удалить</a>
@@ -504,7 +538,7 @@
 						</div>
 						<div class="cart_added_list_bottom">
 							<a href="#" class="continue_shopping bold">Продолжить покупки</a>
-							<a href="#" class="blue_btn_3"><span>Оформить заказ на 1500<span class="price">a</span></span></a>
+							<a href="#" class="blue_btn_3"><span>Оформить заказ на 1500<span class="price">q</span></span></a>
 						</div>
 					</div>
 				</div>
@@ -590,7 +624,7 @@
 					<li>Образец материала не горит</li>
 					<li>Изделие устойчиво
 					к щелочам и кислотам</li>
-					<li>Цена не меньше 1500<span class="price">a</span></li>
+					<li>Цена не меньше 1500<span class="price">q</span></li>
 				</ul>
 			</div>
 		</div>
@@ -746,7 +780,7 @@
 		<div class="col-lg-3 col-lg-offset-2">
 			<div class="opt_block">
 				<h2>Оптовые закупки</h2>
-				<p>от 40 000<span class="price">a</span>, оплата онлайн, отгрузка<br>
+				<p>от 40 000<span class="price">q</span>, оплата онлайн, отгрузка<br>
 				товара через сутки, рекламная<br>
 				поддержка…</p>
 				<a href="#">10 причин работать с нами</a>
