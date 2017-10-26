@@ -97,8 +97,7 @@
 				в торговых центрах<br>
 				и супермаркетах</p>
 				<ul class="dot_inside">
-					<li><span class="bold">4-5 дней</span></li>
-					<li><span class="bold">90<span class="price">q</span></span></li>
+					<li><span class="bold">Временно недоступно</span></li>
 				</ul>
 			</div>
 		</div>
@@ -120,26 +119,24 @@
 	<div class="row star_block no_img payment_method">
 		<div class="col-lg-3 col-lg-offset-3 col-xl-offset-0 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 star_block_item">
 			<div class="star_block_item_wrapper">
-				<h2 class="nowrap">Оплата онлайн</h2>
-				<p>Оплата производятся через платежную<br>
-				систему Яндекс.Касса, что гарантирует<br>
-				надежную защиту платежей и ваших<br>
-				данных.</p>
+				<h2 class="nowrap">Сразу после заказа</h2>
+				<p>Оплата производятся через защищенные<br>
+				платежные системы, что гарантирует<br>
+				сохранность ваших данных.</p>
 				<p>Способы оплаты:</p>
 				<ul class="black_list">
-					<li>Банковская карта</li>
+					<li>Карты Visa и MasterCard</li>
+					<li>Яндекс Деньги</li>
 					<li>Сбербанк Онлайн</li>
-					<li>Через Альфа-Клик</li>
-					<li>Яндекс.Деньги</li>
-					<li>QIWI кошелек</li>
-					<li>Наличными через терминалы</li>
+					<li>Qiwi (кошелек и терминалы)</li>
+					<li>Счет (для ИП и юр. лиц)</li>
+					<li>Квитанция Сбербанка</li>
 				</ul>
 			</div>
 		</div>
 		<div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-xs-5 star_block_item">
 			<div class="star_block_item_wrapper">
-				<h2 class="nowrap">Оплата при<br>
-				получении заказа</h2>
+				<h2 class="nowrap">При получении заказа</h2>
 				<p>Оплата происходит наличными<br>
 				или банковской картой при получении<br>
 				заказа.</p>
