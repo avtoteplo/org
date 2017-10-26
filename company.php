@@ -85,7 +85,7 @@
 			на территории России, Украины, Беларуссии, Польши, 
 			Финляндии и Норвегии.</p>
 			<div class="big_red_wrapper hidden-xl hidden-lg hidden-md">
-				<div class="big_red">316</div>
+				<div class="big_red">374</div>
 				<p class="small nowrap">городов восьми стран —<br>
 				охват нашей<br>
 				диллерской сети</p>
