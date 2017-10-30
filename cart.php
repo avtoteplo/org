@@ -403,6 +403,26 @@
 						<input type="text" name="delivery_adress" placeholder="Адрес" class="input_grey">
 						<label>Адрес</label>
 					</div>
+                    <div class="delivery_input_wrapper">
+						<h2 class="desc_row trade_company_title">Выберите транспортную компанию:</h2>
+                        <form action="" class="trade-comp_form">
+                                    <div class="trade-comp_radio_wrapper">
+                                        <input name="trade-company" type="radio" value="tc-kit" id="tc-kit" checked>
+                                        <label for="tc-kit">КИТ<span>6&ndash;7 дней <span class="dot"></span> 290<span class="price">q</span></span></label>
+                                        <div class="check"></div>
+                                    </div>
+                                    <div class="trade-comp_radio_wrapper">
+                                        <input name="trade-company" type="radio" value="tc-pek" id="tc-pek">
+                                        <label for="tc-pek">ПЭК<span>6&ndash;7 дней <span class="dot"></span> 300<span class="price">q</span></span></span></label>
+                                        <div class="check"></div>
+                                    </div>
+                                    <div class="trade-comp_radio_wrapper">
+                                        <input name="trade-company" type="radio" value="tc-ratek" id="tc-ratek">
+                                        <label for="tc-ratek">Ратэк<span>7&ndash;8 дней <span class="dot"></span> 370<span class="price">q</span></span></span></label>
+                                        <div class="check"></div>
+                                    </div>
+                        </form>
+					</div>
 					<div class="delivery_input_wrapper wrong">
 						<input type="text" name="delivery_name" placeholder="ФИО" class="input_grey">
 						<label>Фио получателя</label>
