@@ -215,7 +215,7 @@
 						<a href="#" class="unavailable"><div>Курьером<span class="hidden-xs"> на дом</span><span>500<span class="price">q</span> • 5—6 дн.</span></div></a>
 					</div>
 					<div class="tab_content delivery_tab_content"></div>
-					<div class="delivery_input_wrapper">
+					<div class="delivery_input_wrapper  wrong">
 						<div class="delivery_city input_grey arrow show_hint">
 							<h2 class="desc_row delivery_city_title">Челябинск <span class="grey">Челябинская область</span></h2>
 						</div>

@@ -2826,11 +2826,15 @@ input.input_grey.grey:-ms-input-placeholder      {color:rgba(0,0,0,.3);}
 	background-position: calc(100% - 15px) center;
 	padding-right: 80px;
 }
-.delivery_input_wrapper.wrong input.input_grey{
+.delivery_input_wrapper.wrong input.input_grey,
+.delivery_input_wrapper.wrong .delivery_city{
 	background-image: url('img/wrong.png');
 	background-repeat: no-repeat;
 	background-position: calc(100% - 15px) center;
 	padding-right: 280px;
+}
+.delivery_input_wrapper.wrong .delivery_city {
+	background-position: calc(100% - 35px) center;
 }
 .wrong_mess{
 	color: #D0021B;
