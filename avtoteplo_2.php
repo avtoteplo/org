@@ -230,12 +230,14 @@
 						<p class="size">142x88 см</p>
 					</div>
 					<div class="size_wrapper">
-						<span>масса<br>не менее</span>
+						<span>масса не менее</span>
 						<p class="weight">3,5 кг</p>
 					</div>
 				</div>
 				<div class="size_wrapper"><span>Комплектация</span></div>
 				<p class="extra">Автотепло, буклет (инструкция и паспорт изделия) и пакет</p>
+				<div class="size_wrapper"><span>Дополнительно</span></div>
+                <p class="equipment">1 год гарантии, скидка на Автотепло для аккумулятора</p>
 			</div>
 			<div class="tovar_inner">
 				<div class="price_block">
@@ -315,9 +317,10 @@
 					<a href="#"><img src="img/card_f.png"></a>
 					<a href="#"><img src="img/card_vk.png"></a>
 					<a href="#"><img src="img/card_m.png"></a>
-					<a href="#"><img src="img/card_t.png"></a>
-					<a href="#"><img src="img/card_o.png"></a>
-				</div>
+					<a href="#" class="hidden-xs visible_480"><img src="img/card_t.png"></a>
+                    <a href="#" class="hidden-sm hidden-xs visible_480"><img src="img/card_o.png"></a>
+                    <div class="grey_dotted_burger hidden-xl hidden-md hidden_320"><span>•</span><span>•</span><span>•</span></div>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -432,7 +435,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-9 col-md-8 col-sm-6 col-xs-6">
+		<div class="col-lg-9 col-md-8 col-sm-6 col-xs-7">
 			<div class="teploiz">
                 <img src="img/avtoteplo-2.jpg">
 				<div class="teploiz_0">
@@ -463,7 +466,7 @@
 				<img src="img/teploiz2.png">
 			</div>
 			<div class="star_block_item_wrapper">
-				<h2 class="nowrap">Огнеупорные<br>материалы</h2>
+				<h2 class="nowrap">Огнеупорные<br>материалы<br><br></h2>
 			</div>
 		</div>
 		<div class="col-lg-2 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-8 col-xs-offset-3 star_block_item rl5">
