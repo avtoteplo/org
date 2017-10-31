@@ -2406,6 +2406,7 @@ input.input_grey:focus:hover, textarea.input_grey:focus:hover, .hint input.input
 	font-weight: 400;
 	line-height: 66px;
 	opacity: 1;
+	white-space: nowrap;
 }
 
 h2.trade_company_title {
@@ -3412,11 +3413,17 @@ input.input_grey.grey:-ms-input-placeholder {
 	padding-right: 80px;
 }
 
-.delivery_input_wrapper.wrong input.input_grey {
+.delivery_input_wrapper.wrong input.input_grey,
+.delivery_input_wrapper.wrong .delivery_city {
 	background-image: url('img/wrong.png');
 	background-repeat: no-repeat;
 	background-position: calc(100% - 15px) center;
 	padding-right: 280px;
+}
+
+.delivery_input_wrapper.wrong .delivery_city {
+	background-position: calc(100% - 35px) center;
+	padding-right: 80px;
 }
 
 .wrong_mess {
@@ -6988,6 +6995,12 @@ img {
 		padding-right: 250px;
 		background-size: 30px;
 		background-position: calc(100% - 10px) center;
+	}
+
+	.delivery_input_wrapper.wrong .delivery_city {
+		padding-right: 50px;
+		background-size: 30px;
+		background-position: calc(100% - 30px) center;
 	}
 
 	.delivery_input_wrapper.valid input.input_grey {
