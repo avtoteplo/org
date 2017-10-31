@@ -1,4 +1,8 @@
 $(function(){
+	$('.grey_dotted_burger').click(function(){
+		$(this).addClass('hidden-sm hidden-xs').parent().find('a[class^="hidden"]').removeClass('hidden-xs hidden-sm');
+
+	});
 	function removeLi(){
 		var menuLi = $('.blue_menu>li');
 		var headerHintMenu = $('.header_nav_sub_menu');
@@ -690,7 +694,7 @@ if($('#bg_video').length){
 	        		},150)
         		},150)
         	}
-        };
+        }
       // 5. The API calls this function when the player's state changes.
       //    The function indicates that when playing a video (state=1),
       //    the player should play for six seconds and then stop.
@@ -725,6 +729,7 @@ if($('#bg_video').length){
 	$(window).on('load resize', function(){
 	  vidRescale();
 	});
+
 }
 
 if($('#map_shops').length){
