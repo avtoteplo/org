@@ -2835,6 +2835,7 @@ input.input_grey.grey:-ms-input-placeholder      {color:rgba(0,0,0,.3);}
 }
 .delivery_input_wrapper.wrong .delivery_city {
 	background-position: calc(100% - 35px) center;
+	padding-right: 80px;
 }
 .wrong_mess{
 	color: #D0021B;
@@ -3003,6 +3004,7 @@ input[type=submit].blue_round_btn{
 	height: 51px;
 	line-height: 51px;
 	font-size: 18px;
+
 }
 .feedback_form .input_grey.arrow:after{
 	height: 51px;
@@ -4511,7 +4513,7 @@ img{
 		margin-right: 0;
 	}
 	.input_grey h2{
-		margin-top: 10px
+		margin-top: 10px;
 	}
 	#technology_a .star_block_img{
 		display: inline-block;
@@ -5676,6 +5678,11 @@ img{
 		padding-right: 250px;
 		background-size: 30px;
 		background-position: calc(100% - 10px) center;
+	}
+	.delivery_input_wrapper.wrong .delivery_city{
+		padding-right: 50px;
+		background-size: 30px;
+		background-position: calc(100% - 30px) center;
 	}
 	.delivery_input_wrapper.valid input.input_grey{
 		background-size: 30px;
